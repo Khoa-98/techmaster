@@ -1,0 +1,1 @@
+1. Bên trong <ul> thì chỉ có <li> thôi 

@@ -1,0 +1,7 @@
+- flexbox là 1 moldun
+-thuộc tính:
++ container
++ item
+* trục chính và trục cắt 
+- flex-wrap: làm cho các item xuống dòng khi đủ kích thước trên 1 dòng
+-order cho phép cta thay đổi vị trí xuất hiện của csc item. nhỏ nhất xếp trc, lớn xếp sau.

@@ -1,0 +1,44 @@
+h1 {
+  color: brown;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 2px blue;
+  text-decoration-line: underline;
+}
+h2 {
+  color: blue;
+  text-shadow: 0px 0px;
+  border-top-style: double;
+  border-radius: 100px;
+  border-color: green;
+}
+p {
+  color: blue;
+  font-size: 15px;
+  background-color: rgb(195, 203, 216);
+  text-indent: 15px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+h2,
+h3,
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.red {
+  color: red;
+}
+/* li a {
+  text-decoration: none;
+} */
+body {
+  background-color: rgb(46, 31, 31);
+  background-image: url(../img/background.png);
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-top-style: double;
+  border-bottom: lightcoral;
+}

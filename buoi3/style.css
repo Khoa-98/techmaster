@@ -1,0 +1,49 @@
+.cicle {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+.hcn {
+  /* tạo kích thước cho 1 cái box */
+  width: 400px;
+  height: 200px;
+  background-color: burlywood;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  border: 10px solid gray;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.container {
+  width: 900px;
+  height: 900px;
+  /* để 2 cái auto này thì nó sẽ chia đều margin 2 bên > làm cho cái box của mình ở giữa */
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: gray;
+}
+/* để reset các chỉ số , đỡ bọ lẫn lộn với các chỉ số mặc định  */
+* {
+  margin: 0;
+  padding: 0;
+}
+.w-100 {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background-color: black;
+}
+a {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+p {
+  display: none;
+}

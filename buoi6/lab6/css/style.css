@@ -1,0 +1,52 @@
+td {
+  background-color: green;
+}
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+tbody tr:nth-child(even) {
+  background-color: hotpink;
+}
+
+/* Form */
+/* form {
+  width: 600px;
+} */
+/* a {
+  font-weight: 400px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin: auto;
+} */
+/* .active {
+  background-color: gray;
+} */
+/* .container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-content {
+  margin-top: 30px;
+  max-width: 100%;
+}
+.form-item {
+  padding-top: 10px;
+  border-bottom: 1px solid gray;
+}
+.swich-form {
+  margin-top: 15px;
+  background-color: green;
+  color: white;
+  max-width: 100%;
+  height: 40px;
+}
+input {
+  border: none;
+} */
+
+/* form facebook */
+
+

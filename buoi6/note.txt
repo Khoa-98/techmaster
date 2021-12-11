@@ -1,0 +1,11 @@
+HTML table:
++ th: table heading
++ td: table data
++ tr: table row
+-input: 
++ value: giá trị khởi tạo ban đầu 
++ thuộc tính name="full-name": nó sẽ gắn với khoá? 
+mọi input đều gắn với 1 cái name để giúp sau này back-end sử dụng
++ id="full-name"
++placeholder: sẽ hiển thị text chờ ở input khi ng dùng chưa nhập dữ liệu 
++ requie: bắt buộc ng dùng phải nhập dữ liệu 

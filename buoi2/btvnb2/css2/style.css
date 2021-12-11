@@ -1,0 +1,75 @@
+.red {
+  color: red;
+}
+.menu-link {
+  color: green;
+}
+body {
+  background-image: url(../img/background.jpg);
+  background-color: gray;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h2 {
+  text-transform: uppercase;
+  color: red;
+}
+h1,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+.head-phuquoc {
+  color: blueviolet;
+}
+.paragragh-1 {
+  color: green;
+}
+.paragragh-2 {
+  color: rgb(146, 36, 146);
+}
+p {
+  font-size: 20px;
+  text-indent: 20px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+br {
+  text-indent: 20px;
+  line-height: 1.5;
+}
+.para-h2-experience {
+  color: yellowgreen;
+  text-indent: 20px;
+}
+li a {
+  text-decoration-line: none;
+  list-style-type: square;
+}
+.para-experience-dailoan {
+  color: purple;
+}
+h1 {
+  text-shadow: 3px 1px 2px rgb(172, 25, 56);
+  border: solid;
+  border-width: 10px;
+  border-color: blueviolet;
+  margin-right: 1050px;
+  border-radius: 3px;
+}
+ul li {
+  font: oblique;
+  font-size: 19px;
+  /* list-style-image: url("../img/list.png"); */
+  list-style-type: square;
+  background-color: chartreuse;
+  margin-right: 1050px;
+}
+ul.dalat li {
+  background-color: red;
+  margin-right: 50px !important;
+}
+.menu-link.active {
+  background-color: black;
+}

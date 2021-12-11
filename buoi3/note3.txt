@@ -1,0 +1,11 @@
+padding: phần lề
++ <padding>
+border: phần viền 
+margin- kẻ nét đứt : là khoảng cahcs giữ các phần tử với nhau(giữ 2 box với nhau)
+content:<width>, <heigh>..
+- phần padding thì cộng dồn kích thước
+-phần margin thì không cộng dồn mà đè lên nhau 
+--> những thuộc tính trên chỉ hoặt động trên block. 
+- display: inline-block
+--> phải tìm những thằng mà bên tỏng nó còn nhiều thẻ khác để dùng inline-block,vd như thằng a nó đứng 1 mk thì inline-block ko có hiểu quả
+* tập trung vào các box models

@@ -1,0 +1,7 @@
+- Các câu lệnh cơ bản cần nhớ:
+1.git init
+2.git status
+
+
+
+

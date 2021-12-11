@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list {
+  word-spacing: -1ch;
+}
+.item {
+  display: inline-block;
+  width: 210px;
+  height: 100px;
+  background-color: blueviolet;
+  word-spacing: normal;
+}
+img {
+  max-width: 100%;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}

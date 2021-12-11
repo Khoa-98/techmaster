@@ -1,0 +1,5 @@
+selector: bộ chọn
+properties: thuộc tính
++ tách nhỏ các class ra, mỗi class sẽ chiếm 1-2 thuộc tính để hạn chế việc ghi đè nhiều 
++ đặt tên class theo các thuộc tính muốn sử dụng
+-> BTVN : tham khao lại các tính năng border, color, background, text, font, ...

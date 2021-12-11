@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0c222f;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  width: 1200px;
+  background-color: #081b27;
+  height: 80px;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+}
+.search-box {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  height: 60px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.search-input {
+  height: 40px;
+  width: 900px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.search-button {
+  background-color: #3898ec;
+  height: 40px;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.img-logo {
+  width: 230px;
+}
+.img-star {
+  width: 70px;
+}
+.rate-star {
+  margin: 10px;
+}
+.img-sympol {
+  width: 30px;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section1 {
+  width: 900px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-header-container {
+  margin-bottom: 40px;
+}
+.item-movies {
+  width: 205px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  height: 70px;
+  width: 550px;
+  margin-right: 40px;
+}
+.menu-link {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 19px;
+  font-style: initial;
+}
+.curent {
+  border-bottom: 2px solid darkorange;
+}
+.style {
+  color: aliceblue;
+}
+.movies-name {
+  color: antiquewhite;
+}
+.section-header {
+  color: #f1b722;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.menu-newmovies-button {
+  margin-left: 5px;
+  padding: 10px;
+  border-radius: 40px;
+  background-color: #0c222f;
+  height: 40px;
+  color: rgb(117, 115, 115);
+}
+.active {
+  background-color: aliceblue;
+}
+.thuhmnail {
+  width: 180px;
+}
+.mrr-10 {
+  margin-right: 10px;
+}
+.movies-thuhmnail {
+  width: 210px;
+  height: 291px;
+  padding: 10px;
+}
+.section2 {
+  width: 300px;
+  height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.section2-header {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #f1b722;
+}
+.section2-content {
+  margin-top: 50px;
+}
+.movies-name-inside {
+  color: aliceblue;
+  font-size: 15px;
+}
+.inside-thumbnail {
+  border-radius: 5px;
+}
+.thumbnail2 {
+  width: 150px;
+}
+.main {
+  margin-top: 60px;
+}
+.footer {
+  width: 700px;
+  line-height: 40px;
+  font-size: 18px;
+  margin-top: 70px;
+}
+.footer-link {
+  text-decoration: none;
+  color: #74a8cf;
+}
+.footer-column {
+  display: flex;
+}
+.footer-row {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+hr {
+  margin-bottom: 70px;
+}
