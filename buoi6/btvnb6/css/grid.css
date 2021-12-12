@@ -64,6 +64,14 @@
   flex-basis: 100%;
 }
 
+.col-mw-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+.col-mw-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
 .col-mw-10 {
   flex: 0 0 83.333333%;
   max-width: 83.333333%;

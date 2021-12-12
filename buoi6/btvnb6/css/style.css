@@ -96,7 +96,7 @@ h3 {
 .banner-content {
   line-height: 50px;
 }
-span {
+.banner-content span {
   color: #ff817e;
   margin-bottom: 20px;
   font-size: 19px;
@@ -261,3 +261,117 @@ h4 a {
 .article-post .bt {
   background-color: #30383b;
 }
+
+/* infor-clients */
+.ex-test {
+  background-color: #fff9f8;
+  margin-top: 50px;
+}
+.col-mw-10 {
+  text-align: center;
+}
+
+.ex-test-content p {
+  color: #263a41;
+  font-family: "Rufina", serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 43px;
+}
+
+.thumbnail-client {
+  border-radius: 50%;
+  margin-bottom: 22px;
+  height: 82px;
+  width: 82px;
+}
+
+.info-client-test p {
+  font-size: 26px;
+  color: #263a41;
+  font-family: "Rufina", serif;
+  font-weight: 400;
+  line-height: 35px;
+}
+.info-client-test p span {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 100;
+  color: #263a41;
+}
+
+/* experienced team */
+
+.team-sec-heading {
+  text-align: center;
+}
+
+/* apointment-form  */
+.apointment {
+  margin: 40px 0;
+}
+.apointment-form {
+  background-color: #fff9f8;
+  flex-basis: 100%;
+  padding: 30px 15px;
+}
+.apointment-form form {
+  max-width: 650px;
+  margin: 0 auto;
+}
+.hafl-width {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form-field input {
+  width: 49%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #d4d3d3;
+  color: #999;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.apointment-form button {
+  border: none;
+  margin-top: 20px;
+}
+.apointment-form .form-field textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #d4d3d3;
+  color: #999;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.apointment-form .form-field select {
+  appearance: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #d4d3d3;
+  color: #999;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 0;
+  width: 318.5px;
+}
+select,
+input {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+/*  */
