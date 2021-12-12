@@ -78,7 +78,7 @@ span {
   line-height: 60px;
 }
 
-.para-banner {
+p {
   color: #555;
   font-size: 18px;
   font-weight: 300;
@@ -95,6 +95,22 @@ span {
   text-align: center;
 }
 
-.section{
-  
+/* section-1-about */
+
+.sec-1-heading {
+  margin-bottom: 30px;
+}
+.col-12 {
+  padding: 0 180px;
+}
+.para-sec-1 {
+  text-align: center;
+}
+.logo-sec-1 {
+  width: 84px;
+  margin-left: 120px;
+}
+
+.text-logo-sec-1 {
+  margin-left: 75px;
 }
