@@ -150,6 +150,15 @@
 .justify-evenly {
   justify-content: space-evenly;
 }
-.text-align-none {
-  text-align: none;
+.text-align-center {
+  text-align: center;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.mb-150 {
+  margin-bottom: 150px;
 }

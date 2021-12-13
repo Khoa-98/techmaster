@@ -33,7 +33,7 @@ img {
 }
 .col-9 {
   max-width: 60%;
-  margin-right: 120px;
+  margin-right: 170px;
 }
 .align-item-end {
   display: flex;
@@ -159,7 +159,6 @@ h3 {
 .logo-sec-1 {
   width: 130px;
   margin-bottom: 30px;
-  margin-left: 200px;
 }
 
 .text-logo-sec-1 {
@@ -170,7 +169,6 @@ h3 {
   line-height: 0.8;
   text-transform: uppercase;
   margin-bottom: 27px;
-  margin-left: 140px;
 }
 
 .title-sec-1 {
@@ -267,9 +265,6 @@ h4 a {
   background-color: #fff9f8;
   margin-top: 50px;
 }
-.col-mw-10 {
-  text-align: center;
-}
 
 .ex-test-content p {
   color: #263a41;
@@ -303,9 +298,29 @@ h4 a {
 }
 
 /* experienced team */
-
+.ex-team .item-member {
+  position: relative;
+}
 .team-sec-heading {
   text-align: center;
+}
+.detail-member {
+  max-width: calc(100% - 60px);
+  padding: 30px 20px;
+  box-shadow: 0 5px 20px #f0f0f0;
+  background-color: #fff;
+  margin: -60px auto 0;
+  position: relative;
+}
+.detail-member h5 {
+  font-family: "Rufina", serif;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 26px;
+  color: 263a41;
+}
+.detail-member span {
+  font-size: 17px;
 }
 
 /* apointment-form  */
@@ -354,6 +369,7 @@ h4 a {
   font-weight: 400;
   padding: 20px 0;
   text-transform: uppercase;
+  width: 100%;
 }
 .apointment-form .form-field select {
   appearance: none;
@@ -418,3 +434,25 @@ input {
   text-align: none;
 }
 
+/* footer */
+.footer {
+  background-color: #fff9f8;
+  padding: 80px 0 60px;
+}
+.nav-footer {
+  list-style: none;
+}
+.nav-footer li {
+  display: inline-block;
+  margin: 40px 20px;
+}
+.copyright {
+  color: #888;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.copyright a {
+  margin: 0 5px;
+  color: #ff817e;
+}
