@@ -374,4 +374,47 @@ input {
   line-height: inherit;
 }
 
-/*  */
+/* contact section */
+
+.address p {
+  margin-top: 0;
+  margin-left: 30px;
+}
+.email p {
+  margin-top: 0;
+  margin-left: 30px;
+}
+.phone-number p {
+  margin-top: 0;
+  margin-left: 30px;
+}
+
+.contact-form {
+  flex-direction: column;
+}
+.contact-form input {
+  border: 1px solid #e3e6ea;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.contact-form textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  overflow: auto;
+  border: 1px solid #e3e6ea;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+.contact-form button {
+  border: none;
+  text-align: none;
+}
+

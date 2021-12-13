@@ -64,9 +64,17 @@
   flex-basis: 100%;
 }
 
+.col-mw-3 {
+  flex: 0 25%;
+  max-width: 25%;
+}
 .col-mw-4 {
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
+}
+.col-mw-7 {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
 }
 .col-mw-8 {
   flex: 0 0 66.666667%;
@@ -115,6 +123,9 @@
 .flex.column {
   flex-direction: column;
 }
+.align-item-start {
+  align-items: flex-start;
+}
 
 .align-center {
   align-items: center;
@@ -138,4 +149,7 @@
 
 .justify-evenly {
   justify-content: space-evenly;
+}
+.text-align-none {
+  text-align: none;
 }
